@@ -1,7 +1,4 @@
-# Let's create the README.md file with the provided content.
-
-readme_content = """
-# Image Description-based Renamer
+# Ollama Image Renamer
 
 This script renames folders or image files based on the description generated from the image content. It utilizes the Ollama API to generate a brief description of each image in a directory and renames the folders or image files accordingly.
 
@@ -23,8 +20,8 @@ This script renames folders or image files based on the description generated fr
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/image-description-renamer.git
-   cd image-description-renamer
+   git clone https://github.com/dustinwloring1988/ollama-image-renamer.git
+   cd ollama-image-renamer
    ```
 
 2. Install the required Python libraries:
@@ -42,7 +39,7 @@ Run the script to rename folders or image files based on the image descriptions.
 To rename folders based on the image description, run the script without any arguments:
 
    ```sh
-   python script_name.py
+   python app.py
    ```
    
 ## Rename Image Files
@@ -50,7 +47,7 @@ To rename folders based on the image description, run the script without any arg
 To rename image files based on the description, pass image as an argument:
 
    ```sh
-   python script_name.py image
+   python app.py image
    ```
    
 ## How It Works
